@@ -1,0 +1,36 @@
+
+/*****************************************
+ * Custom
+ *****************************************/
+ 
+.text-center{
+	background-image:url("img/bg1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: , 100%;
+	background-position: center;
+	animation-name: bgChange;
+    animation-duration: 35s;
+	animation-iteration-count: infinite;
+}
+ 
+@keyframes bgChange {
+  0% {background-image:url("img/bg1.png");}
+  25% {background-image:url("img/bg.jpg");}
+  50% {background-image:url("img/bg1.png");}
+  75% {background-image:url("img/bg.jpg");}
+  100% {background-image:url("img/bg1.png");}
+}
+
+#logo{
+	font-family:Impact;
+}
+
+.quote{
+	font-style:italic;
+	font-family:Times;
+}
+
+.btn-default:hover{
+	background-color:rgb(125,125,125);
+}
